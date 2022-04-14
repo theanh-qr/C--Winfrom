@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Ho_so_sinh_vienModelStoreContainer" CdmEntityContainer="Ho_so_sinh_vienEntities">
+    <EntitySetMapping Name="Thong_tinSV">
+      <EntityTypeMapping TypeName="Ho_so_sinh_vienModel.Thong_tinSV">
+        <MappingFragment StoreEntitySet="Thong_tinSV">
+          <ScalarProperty Name="STT" ColumnName="STT" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="quequan" ColumnName="quequan" />
+          <ScalarProperty Name="dienthoai" ColumnName="dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Ho_so_sinh_vienModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Thong_tinSV">
+    <Key>
+      <PropertyRef Name="STT" />
+    </Key>
+    <Property Name="STT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="hoten" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="quequan" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dienthoai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="Ho_so_sinh_vienEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Thong_tinSV" EntityType="Self.Thong_tinSV" />
+  </EntityContainer>
+</Schema>

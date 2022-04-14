@@ -1,0 +1,5 @@
+c:\users\the anh\documents\visual studio 2013\Projects\BaiKT-bai4\BaiKT-bai4\bin\Debug\BaiKT-bai4.exe.config
+C:\Users\THE ANH\Documents\Visual Studio 2013\Projects\BaiKT-bai4\BaiKT-bai4\bin\Debug\BaiKT-bai4.exe
+C:\Users\THE ANH\Documents\Visual Studio 2013\Projects\BaiKT-bai4\BaiKT-bai4\bin\Debug\BaiKT-bai4.pdb
+C:\Users\THE ANH\Documents\Visual Studio 2013\Projects\BaiKT-bai4\BaiKT-bai4\obj\Debug\BaiKT-bai4.exe
+C:\Users\THE ANH\Documents\Visual Studio 2013\Projects\BaiKT-bai4\BaiKT-bai4\obj\Debug\BaiKT-bai4.pdb

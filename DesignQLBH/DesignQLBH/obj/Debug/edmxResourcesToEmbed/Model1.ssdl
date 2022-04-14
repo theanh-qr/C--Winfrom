@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBHModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="lbtSanpham">
+    <Key>
+      <PropertyRef Name="Masp" />
+    </Key>
+    <Property Name="Masp" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tensp" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gia" Type="int" />
+    <Property Name="Sl" Type="int" />
+  </EntityType>
+  <EntityContainer Name="QLBHModelStoreContainer">
+    <EntitySet Name="lbtSanpham" EntityType="Self.lbtSanpham" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
